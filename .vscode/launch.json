@@ -1,0 +1,58 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) redstone",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/redstone",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerArgs": "--init-command ${workspaceFolder}/.gdbinit"
+        },
+        {
+            "name": "(gdb) testredstone",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/testredstone",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerArgs": "--init-command ${workspaceFolder}/.gdbinit"
+        },
+        {
+            "name": "(lldb) redstone",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/redstone",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "lldb",
+            "miDebuggerArgs": "--init-command ${workspaceFolder}/.lldbinit"
+        },
+        {
+            "name": "(lldb) testredstone",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/testredstone",
+            "args": [],
+            "stopAtEntry": true,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "lldb",
+            "miDebuggerArgs": "--init-command ${workspaceFolder}/.lldbinit"
+        }
+    ]
+}
+
