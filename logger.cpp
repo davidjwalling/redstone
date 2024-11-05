@@ -1,8 +1,10 @@
 #include "api.h"
 #include "logger.h"
 
-#include <fstream>
-#include <iostream>
+#include <cstdarg>  // va_start, va_end
+#include <cstring>  // strcmp
+#include <fstream>  // ofstream
+#include <iostream> // cout
 
 using namespace std;
 

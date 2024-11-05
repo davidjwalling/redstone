@@ -1,6 +1,8 @@
 #include "api.h"
 
 #include <chrono>
+#include <cstdio>
+#include <cstring>
 
 using namespace std;
 
