@@ -136,7 +136,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\api.h" />
     <ClInclude Include="..\driver.h" />
     <ClInclude Include="..\iapi.h" />
     <ClInclude Include="..\idriver.h" />

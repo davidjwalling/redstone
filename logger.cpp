@@ -1,4 +1,3 @@
-#include "api.h"
 #include "logger.h"
 
 #include <cstdarg>  // va_start, va_end
